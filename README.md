@@ -22,31 +22,28 @@ instructions on Canvas. You do not need this repository for that.
    notebook toolbar. It should report that the notebook passes all tests. You
    do not need to run the cells yourself; Validate runs them for you.
 
-If validation reports a failure, post the message on Piazza before the first
-assignment is due.
-
 ## Getting back to your work
 
 Go to https://github.com/codespaces and click your existing CS 445 Codespace.
 
 Do not click "Create codespace" a second time. That builds a new, empty
 environment, and your earlier work will appear to be gone. It is not deleted,
-it is still in your first Codespace, but this is the most common way students
-lose track of their files. Bookmark https://github.com/codespaces now.
+it is still in your first Codespace.
 
 Closing the browser tab is safe. JupyterLab saves your work automatically every
 few minutes, and your files stay on the Codespace disk while it is suspended.
 
 ## Working on an assignment
 
-Assignments are distributed through Canvas, not through this repository.
-
-1. Download the assignment notebook from Canvas.
+1. Download the assignment notebook.
 2. In the JupyterLab file browser, create a folder for it using the new folder
    icon, named after the assignment, for example hw1_knn.
 3. Open that folder and drag the notebook from your computer into the file list
    to upload it. Upload any data files the assignment provides the same way.
 4. Double click the notebook and do your work. Save often with Ctrl+S.
+
+If the assignment comes as a zip file, upload the zip the same way, then right
+click it in the file browser and choose Extract Archive.
 
 By the end of the semester your Codespace holds one folder per assignment,
 which is what you want: everything from the course in one place.
