@@ -1,0 +1,26 @@
+{
+  "name": "CS445 ML Environment",
+  "image": "ghcr.io/spragunr/jmu-cs445-devcontainer:latest",
+
+  "postAttachCommand": "bash .devcontainer/postStart.sh",
+
+  "forwardPorts": [8888],
+  "portsAttributes": {
+    "8888": {
+      "label": "JupyterLab",
+      "onAutoForward": "openBrowser"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/conda/envs/env445/bin/python"
+      }
+    }
+  }
+}
