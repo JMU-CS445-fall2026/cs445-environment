@@ -19,7 +19,8 @@ instructions on Canvas. You do not need this repository for that.
 3. JupyterLab opens automatically in a new browser tab. If it does not, open
    the Ports panel and click the globe icon next to port 8888.
 4. Open setup_demo/445setup.ipynb and click the Validate button in the
-   notebook toolbar. It should report that the notebook passes all tests.
+   notebook toolbar. It should report that the notebook passes all tests. You
+   do not need to run the cells yourself; Validate runs them for you.
 
 If validation reports a failure, post the message on Piazza before the first
 assignment is due.
@@ -52,8 +53,9 @@ which is what you want: everything from the course in one place.
 
 ## Submitting
 
-1. Click the Validate button to confirm your notebook passes the tests that
-   come with the assignment.
+1. Click Validate to confirm your notebook passes the tests that come with the
+   assignment. Validate runs the notebook from a clean start, so it also
+   catches code that only works when cells are run out of order.
 2. Right click the notebook in the JupyterLab file browser and choose Download.
 3. Upload that .ipynb file to Canvas.
 
