@@ -16,8 +16,9 @@ instructions on Canvas. You do not need this repository for that.
    "Create codespace on main".
 2. The first launch takes 2 to 5 minutes while it downloads the course
    environment. Later launches take seconds.
-3. JupyterLab opens automatically in a new browser tab. If it does not, open
-   the Ports panel and click the globe icon next to port 8888.
+3. A notification appears saying JupyterLab is running on port 8888. Click
+   "Open in Browser". If you miss the notification, open the Ports panel and
+   click the globe icon next to port 8888.
 4. Open setup_demo/445setup.ipynb and click the Validate button in the
    notebook toolbar. It should report that the notebook passes all tests. You
    do not need to run the cells yourself; Validate runs them for you.

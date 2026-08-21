@@ -8,7 +8,7 @@
   "portsAttributes": {
     "8888": {
       "label": "JupyterLab",
-      "onAutoForward": "openBrowserOnce"
+      "onAutoForward": "notify"
     }
   },
 

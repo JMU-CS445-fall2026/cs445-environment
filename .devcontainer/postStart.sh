@@ -17,6 +17,9 @@ nohup jupyter lab \
   --IdentityProvider.token='' \
   > /tmp/jupyter.log 2>&1 &
 
-# Wait for the server to be ready before VS Code tries to open the port.
+# Wait for the server to be ready before VS Code forwards the port.
 sleep 8
-echo "JupyterLab ready on port 8888."
+echo
+echo "JupyterLab is running. Click 'Open in Browser' in the notification,"
+echo "or open the Ports panel and click the globe icon next to port 8888."
+echo
