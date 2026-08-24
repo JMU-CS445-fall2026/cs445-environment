@@ -80,5 +80,10 @@ Python 3.12, PyTorch 2.12 (CPU), torchvision, scikit-learn, pandas,
 matplotlib, seaborn, networkx, transformers, TensorBoard, graphviz, and
 JupyterLab with nbgrader.
 
-The environment is named env445 and is already active in every terminal, so you
-do not need to run conda activate.
+The environment is named env445. In any terminal, python and python3 are the
+env445 versions, so you do not need to run conda activate.
+
+If you run a .py file from VS Code and get ModuleNotFoundError, VS Code is
+using the system Python instead. Open the Command Palette with Ctrl+Shift+P,
+choose Python: Select Interpreter, and pick the one under
+/opt/conda/envs/env445.

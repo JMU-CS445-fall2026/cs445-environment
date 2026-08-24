@@ -1,0 +1,6 @@
+{
+  // VS Code's Run button and notebook kernels use the interpreter the Python
+  // extension has selected, not the terminal's PATH. Without this it can pick
+  // /usr/bin/python3, which has none of the course packages.
+  "python.defaultInterpreterPath": "/opt/conda/envs/env445/bin/python"
+}
