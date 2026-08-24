@@ -84,6 +84,12 @@ The environment is named env445. In any terminal, python and python3 are the
 env445 versions, so you do not need to run conda activate.
 
 If you run a .py file from VS Code and get ModuleNotFoundError, VS Code is
-using the system Python instead. Open the Command Palette with Ctrl+Shift+P,
-choose Python: Select Interpreter, and pick the one under
-/opt/conda/envs/env445.
+using the system Python instead of env445. Open the Command Palette with
+Ctrl+Shift+P, choose Python: Select Interpreter, and pick the one under
+/opt/conda/envs/env445. You only need to do this once; the choice sticks for
+this Codespace.
+
+If the wrong interpreter comes back anyway, run Python: Clear Workspace
+Interpreter Setting from the Command Palette, then select it again.
+
+This does not affect notebooks opened in JupyterLab, which always use env445.
