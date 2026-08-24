@@ -36,12 +36,12 @@ few minutes, and your files stay on the Codespace disk while it is suspended.
 
 ## Working on an assignment
 
-1. Download the assignment notebook.
-2. In the JupyterLab file browser, create a folder for it using the new folder
-   icon, named after the assignment, for example hw1_knn.
-3. Open that folder and drag the notebook from your computer into the file list
-   to upload it. Upload any data files the assignment provides the same way.
-4. Double click the notebook and do your work. Save often with Ctrl+S.
+1. Download the assignment files.
+2. In the JupyterLab file browser, create a folder for them using the new
+   folder icon, named after the assignment, for example hw1_knn.
+3. Open that folder and drag the files from your computer into the file list to
+   upload them.
+4. Open the file you need to work on and do your work. Save often with Ctrl+S.
 
 If the assignment comes as a zip file, upload the zip the same way, then right
 click it in the file browser and choose Extract Archive.
@@ -51,11 +51,11 @@ which is what you want: everything from the course in one place.
 
 ## Submitting
 
-1. Click Validate to confirm your notebook passes the tests that come with the
-   assignment. Validate runs the notebook from a clean start, so it also
+1. If the assignment is a notebook with tests, click Validate to confirm it
+   passes them. Validate runs the notebook from a clean start, so it also
    catches code that only works when cells are run out of order.
-2. Right click the notebook in the JupyterLab file browser and choose Download.
-3. Upload that .ipynb file to Canvas.
+2. Right click the file in the JupyterLab file browser and choose Download.
+3. Submit it as the assignment directs.
 
 Validation checks that your code runs and passes the visible tests. It is not
 your grade, and some assignments include additional hidden tests.
@@ -68,7 +68,7 @@ not enough. A running Codespace uses up your monthly free hours even when you
 are not working. Verified students get 180 hours per month, which is plenty if
 you stop it and not plenty if you forget.
 
-Download your notebooks as you go. GitHub permanently deletes Codespaces after
+Download your work as you go. GitHub permanently deletes Codespaces after
 30 days of inactivity. If you go a month without opening yours, over spring
 break for example, it can be deleted along with everything in it. Keep copies
 of finished work on your own computer, and open your Codespace at least once a
