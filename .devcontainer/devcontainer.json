@@ -2,6 +2,7 @@
   "name": "CS445 ML Environment",
   "image": "ghcr.io/spragunr/jmu-cs445-devcontainer:latest",
 
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "postAttachCommand": "bash .devcontainer/postStart.sh",
 
   "forwardPorts": [8888],
